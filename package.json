@@ -1,6 +1,6 @@
 {
   "name": "my-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Pequeño ejemplo para mostrar el uso de @angular-devkit/schematics, @nestjs/cli y commander para Eventloop Agosto",
   "scripts": {
     "build": "tsc && gulp",
