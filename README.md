@@ -5,6 +5,12 @@ Este repositorio es un ejemplo de como crear y usar tu propia línea de comandos
 El objetivo es "extender" las funciones de `@nestjs/cli` utlizando `@angular-devkit/core` y `@angular-devkit/schematics`
 
 
+### Instalación
+
+```
+npm i -g eventloop-cli
+```
+
 ### Instalación local
 
 ```
