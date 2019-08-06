@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "id": "SchematicsSchema",
+  "title": "Name of schema",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Name of schema",
+      "x-prompt": "What name would you like to use for the new schema?"
+    },
+    "collectionName": {
+      "type": "string",
+      "description": "Collection name on database.",
+      "x-prompt": "What name would you like to use for the collection on the database?"
+    }
+  },
+  "required": ["name", "collectionName"]
+}

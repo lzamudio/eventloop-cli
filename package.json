@@ -1,0 +1,26 @@
+{
+  "name": "my-cli",
+  "version": "1.0.0",
+  "description": "Pequeño ejemplo para mostrar el uso de @angular-devkit/schematics, @nestjs/cli y commander para Eventloop Agosto",
+  "scripts": {
+    "build": "tsc && gulp",
+    "preinstall": "npm run build",
+    "watch": "gulp && tsc --watch"
+  },
+  "bin": {
+    "eventloop-cli": "./dist/bin/cli.js"
+  },
+  "schematics": "./dist/schematics/collections.json",
+  "author": "Luis Zamudio <luis.zamudio90@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@angular-devkit/core": "^8.2.0",
+    "@angular-devkit/schematics": "^8.2.0",
+    "@nestjs/cli": "^6.6.3",
+    "chalk": "^2.4.2",
+    "commander": "^2.20.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
