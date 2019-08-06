@@ -1,5 +1,5 @@
 {
-  "name": "my-cli",
+  "name": "eventloop-cli",
   "version": "1.0.1",
   "description": "Pequeño ejemplo para mostrar el uso de @angular-devkit/schematics, @nestjs/cli y commander para Eventloop Agosto",
   "scripts": {
@@ -13,6 +13,10 @@
   "schematics": "./dist/schematics/collections.json",
   "author": "Luis Zamudio <luis.zamudio90@gmail.com>",
   "license": "MIT",
+  "repository" : {
+    "type" : "git",
+    "url": "ssh://git@github.com:lzamudio/eventloop-cli.git"
+  },
   "dependencies": {
     "@angular-devkit/core": "^8.2.0",
     "@angular-devkit/schematics": "^8.2.0",
