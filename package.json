@@ -1,6 +1,6 @@
 {
   "name": "eventloop-cli",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Pequeño ejemplo para mostrar el uso de @angular-devkit/schematics, @nestjs/cli y commander para Eventloop Agosto",
   "scripts": {
     "build": "tsc && gulp",

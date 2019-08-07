@@ -5,7 +5,6 @@ const schematics_1 = require("@angular-devkit/schematics");
 const schema_utils_1 = require("./schema.utils");
 function main(options) {
     return (tree, context) => {
-        console.log(options);
         if (!options.name) {
             throw new schematics_1.SchematicsException('La opción "name" es requerida');
         }

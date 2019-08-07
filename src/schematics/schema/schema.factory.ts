@@ -16,7 +16,6 @@ import { addDeclarationToConst } from './schema.utils';
 
 export function main(options: SchemaOptions): Rule {
   return (tree: Tree, context: SchematicContext) => {
-    console.log(options);
     if (!options.name) {
       throw new SchematicsException('La opción "name" es requerida');
     }
